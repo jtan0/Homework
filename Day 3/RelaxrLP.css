@@ -1,10 +1,18 @@
+#container{
+
+	font-family: 'Open Sans', sans-serif;
+	margin: 50px;
+	padding: 50px;
+}
+
+/* I used different number settings to customize the boldness of fonts*/
 header {
-	height: 1000px;
-	background-image: url("../images/header_bg.jpg");
+	height: 400px;
+	background-image: url("header_bg copy.jpg");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
-	margin: 50px;
 	color: white;
+	margin-bottom: none;
 }
 
 header h1 {
@@ -25,13 +33,101 @@ header h2 {
 
 button {
 	display: block;
+	margin-top: 50px;
 	background-color: #f9e42e;
-	width: 100px;
 	text-decoration: none;
-	color: ;
+	color: #033048;
+	width: 150px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 0 10px 0;
+	font-weight: 800;
+	-mox-box-shadow: inset 0px 0px 10px #606161;
+	-webkit-box-shadow: inset 0px 0px 10px  #606161;
+	-ms-box-shadow: inset 0px 0px 10px  #606161;
+	-o-box-shadow: inset 0px 0px 10px  #606161;
+	box-shadow: inset 0px 0px 10px  #606161;
 }
 
-body {
+.benefits {
+	background-color: #f0efef;
+	margin-top: none;
+	color: #606161;
+	padding: 50px;
+	font-size: 13px;
 
-	font-family: 'Open Sans', sans-serif;
+}
+
+.benefits h3 {
+	margin: 0 auto;
+	font-weight: 600;
+	font-size: 20px;
+	color: #033048;
+}
+
+.benefits li:nth-child(even) {
+	font-weight: bold;
+}
+
+.testimony {
+	background-image: url("testimonial_bg copy.jpg");
+	padding: 50px;
+}
+
+div blockquote{
+	margin: 0 auto;
+	color: #606161;
+	width: 50%;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.testimony div {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.sign-up-button {
+	background-color: #f9e42e;
+	margin-top: 0 auto;
+	padding: 30px;
+}
+
+.sign-up-button button {
+	margin: 0 auto;
+	background-color: #033048;
+	color: white;
+	padding: 10px 0 10px 0;
+}
+
+footer {
+	background-color: #121212;
+}
+
+.logo {
+	margin: 0 auto;
+	font-weight: 800;
+	font-size: 24px;
+	color: #f9e42e;
+	text-align: center;
+	padding: 50px;
+}
+
+a {
+	width: 30px;
+	height: auto;
+	margin: 20px;
+}
+
+nav p {
+	color: white;
+	font-size: 9px;
+	font-weight: 600;
+	text-align: center;
+	padding: 30px;
 }
