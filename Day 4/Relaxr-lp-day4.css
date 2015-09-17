@@ -1,0 +1,99 @@
+#container{
+	font-family: 'Open Sans', sans-serif;
+	margin: 50px;
+	padding: 50px;
+
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	background-color: #033048;
+	margin-bottom: 0;
+}
+
+header h1 {
+	float: left;
+	width: 45%;
+	color: white;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+.top-nav {
+	float: left;
+	width: 45%;
+	margin-top: 30px;
+}
+
+/* This is how to make a nav horizontal*/
+.top-nav ul li  {
+	display: inline;
+}
+
+.top-nav a {
+	text-decoration: none;
+	color: #f9e42e;
+	font-weight: 600;
+}
+
+.middle-box {
+	clear: both;
+	background-color: #f0efef;
+	height: 700px;
+}
+
+article .blog-1 {
+	float: left;
+	width: 35%;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 40px;
+	margin: 0;
+}
+
+.sign-up-button {
+	background-color: #f9e42e;
+	margin-top: 0 auto;
+	padding: 30px;
+	margin: 0;
+}
+
+.sign-up-button button {
+	background-color: #033048;
+	color: white;
+	padding: 10px 0 10px 0;
+	border-radius: 5px;
+	width: 200px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+footer {
+	background-color: #121212;
+}
+
+.logo {
+	margin: 0 auto;
+	font-weight: 800;
+	font-size: 24px;
+	color: #f9e42e;
+	text-align: center;
+	padding: 50px;
+}
+
+a {
+	width: 30px;
+	height: auto;
+	margin: 20px;
+}
+
+nav p {
+	color: white;
+	font-size: 9px;
+	font-weight: 600;
+	text-align: center;
+	padding: 30px;
+}

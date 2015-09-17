@@ -1,0 +1,39 @@
+header {
+	width: 100%;
+	height: 200px;
+	background-color: gray;
+	margin-bottom: 25px;
+}
+
+.col-1 {
+	float:left;
+	width: 24%;
+	height: 300px;
+	background-color: gray;
+	margin-bottom: 25px;
+	margin-right: 12px;
+}
+
+
+.col-2 {
+	float: left;
+	width: 50%;
+	height: 300px;
+	background-color: gray;
+}
+
+.col-3 {
+	float: left;
+	width: 24%;
+	height: 300px;
+	background-color: gray;
+	margin-left: 12px;
+}
+
+footer {
+	margin-top: 25px;
+	width: 100%;
+	height: 200px;
+	background-color: gray;
+	clear: both;
+}
