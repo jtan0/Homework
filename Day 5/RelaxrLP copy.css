@@ -1,0 +1,133 @@
+#container{
+
+	font-family: 'Open Sans', sans-serif;
+	margin: 50px;
+	padding: 50px;
+}
+
+/* I used different number settings to customize the boldness of fonts*/
+header {
+	height: 400px;
+	background-image: url("header_bg copy.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	color: white;
+	margin-bottom: none;
+}
+
+header h1 {
+	font-weight: 800;
+	font-size: 24px;
+	margin: 50px;
+	padding-top: 30px;
+}
+
+header h2 {
+	font-size: 20px;
+	padding-top: 50px;
+	text-align: center;
+	font-weight: 600;
+	margin-top: -45px;
+}
+
+
+button {
+	display: block;
+	margin-top: 50px;
+	background-color: #f9e42e;
+	text-decoration: none;
+	color: #033048;
+	width: 150px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 0 10px 0;
+	font-weight: 800;
+	-mox-box-shadow: inset 0px 0px 10px #606161;
+	-webkit-box-shadow: inset 0px 0px 10px  #606161;
+	-ms-box-shadow: inset 0px 0px 10px  #606161;
+	-o-box-shadow: inset 0px 0px 10px  #606161;
+	box-shadow: inset 0px 0px 10px  #606161;
+}
+
+.benefits {
+	background-color: #f0efef;
+	margin-top: none;
+	color: #606161;
+	padding: 50px;
+	font-size: 13px;
+
+}
+
+.benefits h3 {
+	margin: 0 auto;
+	font-weight: 600;
+	font-size: 20px;
+	color: #033048;
+}
+
+.benefits li:nth-child(even) {
+	font-weight: bold;
+}
+
+.testimony {
+	background-image: url("testimonial_bg copy.jpg");
+	padding: 50px;
+}
+
+div blockquote{
+	margin: 0 auto;
+	color: #606161;
+	width: 50%;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.testimony div {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.sign-up-button {
+	background-color: #f9e42e;
+	margin-top: 0 auto;
+	padding: 30px;
+}
+
+.sign-up-button button {
+	margin: 0 auto;
+	background-color: #033048;
+	color: white;
+	padding: 10px 0 10px 0;
+}
+
+footer {
+	background-color: #121212;
+}
+
+.logo {
+	margin: 0 auto;
+	font-weight: 800;
+	font-size: 24px;
+	color: #f9e42e;
+	text-align: center;
+	padding: 50px;
+}
+
+a {
+	width: 30px;
+	height: auto;
+	margin: 20px;
+}
+
+nav p {
+	color: white;
+	font-size: 9px;
+	font-weight: 600;
+	text-align: center;
+	padding: 30px;
+}

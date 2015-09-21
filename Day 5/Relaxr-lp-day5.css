@@ -1,0 +1,152 @@
+body {
+	font-family: "Open Sans";
+}
+
+/* This wraps all the content in the body*/
+#container {
+	width: 1200px;
+	height: 2500px;
+}
+
+
+header {
+	height: 100px;
+	background-color: #033048;
+}
+
+h1 {
+	float: left;
+	width: 35%;
+	color: white;
+	font-weight: 800;
+	margin: 25px;
+}
+
+.top-nav {
+	float: right;
+	width: 49%;
+	margin: 20px;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.top-nav a {
+	padding: 15px;
+	margin: 10px;
+	text-decoration: none;
+	color: #f9e42e;
+}
+
+/*This is the container that wraps the two blog posts*/
+.blogs {
+	float: left;
+	width: 700px;
+	background-color: #d3d3d3;
+	padding: 50px;
+	margin-right: 0;
+}
+
+.blogs p {
+	font-size: 24px;
+	font-weight: 300;
+
+}
+h2 {
+	margin: 0px;
+	color: #033048;
+	padding: 15px;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.big-l {
+	float: left;
+	width: 5%;
+	color: #606161;
+	font-size: 30px;
+}
+
+.blogs a {
+	float: right;
+	width: 24%;
+	padding: 25px;
+	font-size: 24px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #033048;
+}
+
+hr {
+	clear: both;
+}
+
+.side-bar{
+	float: right;
+	width: 300px;
+	background-color: #d3d3d3;
+	padding: 50px;
+}
+
+.categories ul {
+	list-style-type: none;
+	padding: 0px;
+	font-size: 24px;
+}
+
+/*This is to eliminate the link underline in side bar*/
+.categories ul a {
+	text-decoration: none;
+}
+
+.ad-unit {
+	background-color: #d3d3d3;
+	width: 100%;
+	height: 1311px;
+	padding: 5px;
+}
+
+.sign-up {
+	clear: both;
+	margin: 0px;
+	height: 40px;
+	width: 90%;
+	background-color: #f9e42e;
+	padding: 60px;
+}
+
+.sign-up button {
+	display: block;/* When you are centering a button, try turning the display to block and then margin 0*/
+	margin: 0 auto;
+	padding: 10px;
+	width: 20%;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+	text-decoration: none;
+	background-color: #033048;
+	color: white;
+	font-size: 25px;
+
+}
+
+footer {
+	padding: 10px;
+	text-align: center;
+	margin-top: 0px;
+	background-color: black;
+	color: white;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: bolder;
+	color: #f9e42e;
+}
+
+.social-media {
+	margin-right: 70px;
+	word-spacing: 50px;
+	padding: 20px;
+}
