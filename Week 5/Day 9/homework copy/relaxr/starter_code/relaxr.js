@@ -3,6 +3,7 @@ $(document).ready(function(e) {
 		$('#show-this-on-click').slideDown('slow');
 		$('.readless').show();
 		$('.readmore').hide();
+		e.preventDefault();
 	});
 
 	$('.readless').click(function() {
