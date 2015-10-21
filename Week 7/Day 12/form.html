@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+
+	<div id="container">
+		<form id="validate-form">
+			<div id="contact-info">
+				<h1>Your Contact Info</h1>
+				Your Name <label>
+					<input type="text" name="first" maxlength="5"placeholder="first" required>
+				</label>
+				<label>
+					<input type="text" name="last" placeholder="last">
+				</label>
+				<BR><BR>
+				<label>Phone Number<input for="field" class="phone-number" type="tel" name="number"></label>
+				<BR><BR>
+				<label>Address<input type="text" name="street-address" placeholder="Street Address"><BR></label>
+				<input type="text" name="address2" placeholder="Address Line 2">
+				<BR><BR>
+				<label><input type="text" name="city" placeholder="City"></label>
+				<label><input type="text" name="state" placeholder="State"></label>
+				<label><input type="text" name="zip"placeholder="Zip Code"></label>
+			</div>
+
+			<div id="skills-interests">
+				<h1>Skills &amp; Interests</h1>
+				<BR><BR>
+				Course
+				<select name="course">
+					<optgroup label="Select One"></optgroup>
+					<optgroup label="Web Development">
+					<option>Front-End</option>
+					<option>Back-End</option>
+					</optgroup>
+					<optgroup label="Design">
+					<option>Visual Design</option>
+					<option>User Experience</option>
+					</optgroup>
+				</select>
+				<BR><BR>
+				Past Experience
+				<input type="text" name="experience">
+			</div>
+
+			<div id="anything-else">
+				<h1>Anything Else?</h1>
+				Referral
+				<select name="referral">
+					<option>None</option>
+					<option>Friend</option>
+					<option>Instructor</option>
+					<option>Online</option>
+				</select>
+				<BR><BR>
+				Comments
+				<input type="text" name="comment">
+			</div>
+			<div id="footer">
+				<input type="button" value="Save Draft">
+				<input type="submit" value="submit">
+			</div>
+		</form>
+	</div>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+<script type"text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="form.js"></script>
+</body>
+</html>
