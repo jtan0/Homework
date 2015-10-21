@@ -32,20 +32,21 @@
 <section id="blogposts">
 	<article class="post one">
 			<h3>Contact Me</h3>
-			<form>
-				<p>
-				First:
-				<input type="text" name="First">
-				</p>
-				<p>
-				Last:
-				<input type="text" name="Last">
-				</p>
-				<p>
-				Email:
-				<input type="text" name="email">
-				</p>
-			</form>
+				<form>
+  				First name:<br>
+  				<input type="text" maxlength= "10" name="firstname">
+ 				<br>
+  				Last name:<br>
+ 				<input type="text" name="lastname">
+ 				<br>
+ 				Email:<br>
+ 				<input id="field" type="text" name="email">
+ 				<br>
+ 				Message:<br>
+ 				<input class="text-box"type="text" name="message">
+ 				<br>
+ 				<input type="submit" value="submit">
+				</form>
 	</article>
 </section>
 	<aside class="side-div">
@@ -77,6 +78,7 @@
 	</footer>
 
 	</div>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
 
 </body>
 
