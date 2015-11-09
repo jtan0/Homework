@@ -1,0 +1,191 @@
+/* This is for the landing page*/
+
+body {
+	margin: 30px;
+}
+
+#title {
+	text-decoration: none;
+	color: #ff5c74;
+}
+
+nav.navbar.navbar-inverse.navbar-static-top {
+	background-color: #ff8597;
+	color: #ffffff;
+	font-family: "Minion";
+}
+
+.navbar-wrapper a:hover {
+	background-color: #ff8581;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #ffffff;
+}
+
+.slide {
+	opacity: .74;
+}
+
+
+.navbar-inverse .navbar-nav.active a {
+	background-color: #ff8597;
+}
+
+a .navbar-brand {
+	color: #ffffff;
+}
+
+div.divider {
+    text-align:center;
+	font-family: "Minion";
+	font-size: 25pt;
+	color: #ff4763;
+	margin-bottom: 30px;
+}
+
+.divider hr {
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+	
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
+	
+
+.carousel-caption h1 {
+	font-family: "Minion";
+	font-style: italic;
+	font-size: 90;
+	font-color: #000000; 
+}
+
+a.btn-primary {
+	background-color: #FFC0A9;
+}
+
+a.btn-primary.active.focus, a.btn-primary.active:focus, a.btn-primary.active:hover, a.btn-primary:active.focus, a.btn-primary:active:focus, a.bt   <!--- row for Nov posts -->
+  n-primary:active:hover, a.open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+	color: #fff;
+	background-color: #ff5898;
+	border-color: #122b40
+}
+
+a.btn-primary:hover, .btn-default:hover, .btn-default:active {
+	background-color: #FF8598;
+}
+
+
+/* This is the css for the About Me popup modal*/
+
+h2.modal-title {
+	color: #FF8598;
+	text-align: center;
+	font-family: "Minion"
+}
+
+.byline {
+	font-family: "Minion";
+	color: #FF8598;
+	text-align: center;
+}
+
+.col-lg-12 img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* End of Popup CSS */
+
+.col-lg-4 h2, .col-lg-3 h2, .col-lg-12 h2 {
+	color: #FF8598;
+	font-family: "Minion";
+}
+
+p .title {
+	font-style: italic;
+	font-color: black;
+}
+
+a.btn {
+	background-color: #ff5c74;
+	color: white;
+	font-size: 12pt;
+	font-family: "Minion";
+}
+
+.btn-default:focus, .btn-default:hover {
+	background-color: #ff8597;
+}
+
+h2.featurette-heading {
+	color: #FF8598;
+}
+
+span.text-muted {
+	color: #ff5c74
+}
+
+/* This is for the beauty picks page*/
+
+.img-circle:hover {
+	opacity: .50;
+}
+
+.col-lg-3 {
+	position: relative;
+	right: 20px;
+}
+
+.pick {
+	position: relative;
+	left: 80px;
+}
+
+.head {
+	position: relative;
+	left: 100px;
+}
+
+.oct {
+	position: relative;
+	left: 100px;
+}
+
+/* This is for the blog page */
+
+@media (max-width: 800px) {
+	.modal-container {
+		display: none;
+	}
+}
+
+/* This is for an example blog article */
+
+div.top {
+	position:relative;
+	left: 20px;
+	text-align: center;
+}
+
+.article {
+	position: relative;
+	left: 10px;
+	padding: 30px;
+}
+
+.step {
+	font-style: italic;
+	color: #ff5898;
+	font-family: "Minion";
+	font-size: 14pt;
+}
