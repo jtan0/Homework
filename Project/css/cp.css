@@ -189,3 +189,18 @@ div.top {
 	font-family: "Minion";
 	font-size: 14pt;
 }
+
+#comment {
+	width: 200px;
+}
+
+/* This is for the About Me Page */
+
+.about {
+	position: relative;
+	left: 400px;
+}
+
+.body {
+	width: 500px;
+}

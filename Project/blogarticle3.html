@@ -149,31 +149,25 @@
 
       <!-- /.row -->
 
-      <hr class="comment-divider">
+     <hr class="comment-divider">
 
       <div class="row comment">
         <div class="col-lg-12 col-md-push-5">
           <div class="container">
-              <div class="comment-box">
-              <div class="comment-area">
-                 <p class="header">Add Your Comment</p>
-                  <form action="#" onsubmit="event.preventDefault(); postComment()">
-                 <div> 
-                  <input type="text" id="name" placeholder="Name"/>
-                </div>
-               <div>
-                   <textarea id="comment" rows="3" cols="50" placeholder="Comment"></textarea>
+            <div id="commentInput">
+             <div id="helloUsername" class="helloUserClass"></div>
+              <label>Name:</label>
+              <input id="username" class="input" placeholder="Name"></input><br />
+              <label>Comment:</label>
+              <br>
+              <textarea id="comment" class="input" placeholder="Place your comment here."></textarea>
+                <br /><button type="submit" id="updateButton" class="btn btn-default">Send</button><button type="clear" id="clear" class="btn btn-default">Delete</button>
               </div>
-              <button class="btn-default btn" type="submit">COMMENT</button>
-              </form>  
-              </div>
-             <span>Comments</span>
-             <div id="comments"></div>
-          </div>
+            <div id="output">
+             </div>
           </div>
         </div>
       </div>
-
 
       <!-- START THE FEATURETTES -->
 

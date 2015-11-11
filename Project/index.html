@@ -51,33 +51,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-               <!--- This is the modal for the About Page -->
-                <li class="active"><a href="#" class="btn btn-lg btn-ssuccess" data-toggle="modal" data-target="#basicModal">About</a></li>
-                    <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-                       <div class="modal-dialog">
-                       <div class="modal-content">
-                       <div class="modal-header">
-                          <h2 class="modal-title" id="myModalLabel">Let's Talk About Me</h2>
-                       </div>
-                      <div class="modal-body">
-                          <h3 class="byline">Hi Everyone! </h3>
-                          <div class="col-lg-12">
-                            <center><img class="img-circle" src="./images/aboutme.jpg" width="140" height="140"></center>
-                          </div>
-                          <p class="byline">
-                          I am freelance makeup artist currently living in Oklahoma City, OK.. I am obsessed with everything about makeup and beauty! I love the way makeup enhances your facial features and complexion to make you even more beautiful than you already are. Most of my inspiration comes from pictures, videos, and other artworks around me. Thanks to a wonderful support system,  I am now ready to share my work with you.</p>
-                          <p>
-                          As you go through this site, you will see weekly product reviews, my experiences as a freelancer, and pictures of my artwork. . If you have any products you would like to share and for me to review, please email them to me! If you are interested in my work, head over to my contact page!
-                          </p>
-                      </div>
-                      <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-                    </div>
-                    </div>
-                  </div>
-                
-              <!--- End of the About Modal -->
+                <li class="active"><a href="aboutme.html">About</a></li>
                 <li class="active"><a href="beautypicks.html">Beauty Picks</a></li>
                 <li class="active"><a href="Blog.html">Blog</a></li>
                 <li><a href="#contacts">Contact</a></li>
@@ -309,21 +283,22 @@
           <a id="title" name="contacts"><h2 class="featurette-heading">Got Anymore Questions?<br><span class="text-muted">Write to Me.</span></h2></a>
         </div>
 
-        <div class="col-md-5">
-          <form>
+              <div class="col-md-5">
+          <form action="https://docs.google.com/forms/d/1I8PzRAqaQ3P1ZRwsu-JLgY55v24c0JfLCElQyLQndSI/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
             <div class="form-group">
               <label for="Name">Name</label>
-              <input type="text" class="form-control" id="Name" placeholder="Name">
+              <input type="text" name="entry_92543468" value="" class="ss-q-short valid" id="entry_92543468" dir="auto" aria-label="Name  " title="">
             </div>
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
-               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+               <input type="text" name="entry.1054201278" value="" class="ss-q-short valid" id="entry_1054201278" dir="auto" aria-label="Email  " title="">
             </div>
             <div class="form-group">
               <label for="exampleInputFile">Message:</label>
-              <textarea class="form-control" rows="3"></textarea>
+              <textarea name="entry.83652405" rows="8" cols="0" class="ss-q-long valid" id="entry_83652405" dir="auto" aria-label="Message  "></textarea>
            </div>
-              <button type="submit" class="btn btn-default">Submit</button>
+              <button id="ButtonSubmit"
+              type="button" class="btn-default btn" >Send</button> 
           </form>
         </div>
       </div>
@@ -358,6 +333,7 @@
 
     <!--- My Own Javscript -->
     <script type="text/javascript" src="./js/cplp.js"></script>
+    <script type="text/javascript" src="submit.js">
   
 
 </body></html>
